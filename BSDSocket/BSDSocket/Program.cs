@@ -62,7 +62,7 @@ namespace BSDSocket
                     }
                 }
 
-                Console.WriteLine("Texto received : {0}", data);
+                Console.WriteLine("Texto recibido : {0}", data);
 
                 byte[] msg = Encoding.ASCII.GetBytes(data);
                 escuchar.Send(msg);
