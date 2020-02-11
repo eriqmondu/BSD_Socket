@@ -1,0 +1,6 @@
+C:\Users\eriq\Desktop\2020-2\Sistemas Distribuídos\Tarea 5\BSDSocket\BSDSocket\bin\Debug\BSDSocket.exe.config
+C:\Users\eriq\Desktop\2020-2\Sistemas Distribuídos\Tarea 5\BSDSocket\BSDSocket\bin\Debug\BSDSocket.exe
+C:\Users\eriq\Desktop\2020-2\Sistemas Distribuídos\Tarea 5\BSDSocket\BSDSocket\bin\Debug\BSDSocket.pdb
+C:\Users\eriq\Desktop\2020-2\Sistemas Distribuídos\Tarea 5\BSDSocket\BSDSocket\obj\Debug\BSDSocket.csprojAssemblyReference.cache
+C:\Users\eriq\Desktop\2020-2\Sistemas Distribuídos\Tarea 5\BSDSocket\BSDSocket\obj\Debug\BSDSocket.exe
+C:\Users\eriq\Desktop\2020-2\Sistemas Distribuídos\Tarea 5\BSDSocket\BSDSocket\obj\Debug\BSDSocket.pdb
