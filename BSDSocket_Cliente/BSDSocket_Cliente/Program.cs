@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net;
 using System.Net.Sockets;
+using System.Text;
 
 //Cliente
 namespace BSDSocket_Cliente
@@ -14,6 +15,8 @@ namespace BSDSocket_Cliente
 
         private static void connect_client()
         {
+            byte[] bytes = new byte[1024];
+
             //Creando un Socket IPv4 TCP
             Socket BSDCliente = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             //Dirección IP del servidor que estará a la escucha de las peticiones del cliente
@@ -24,7 +27,25 @@ namespace BSDSocket_Cliente
             {
                 BSDCliente.Connect(direccionCliente); // Conectamos                
                 Console.WriteLine("Conectado con exito");
+
+                Console.WriteLine("Socket conectado a {0}",
+                    BSDCliente.RemoteEndPoint.ToString());
+
+                // Encode the data string into a byte array.    
+                byte[] msg = Encoding.ASCII.GetBytes("Saaaaaaaaaaadisiano ");
+
+                // Send the data through the socket.    
+                int bytesSent = BSDCliente.Send(msg);
+
+                // Receive the response from the remote device.    
+                int bytesRec = BSDCliente.Receive(bytes);
+                Console.WriteLine("Mensaje de prueba = {0}",
+                    Encoding.ASCII.GetString(bytes, 0, bytesRec));
+
+                // Release the socket.    
+                BSDCliente.Shutdown(SocketShutdown.Both);
                 BSDCliente.Close();
+
             }
             catch (Exception error)
             {

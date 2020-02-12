@@ -3,3 +3,4 @@ C:\Users\eriq\Desktop\2020-2\Sistemas Distribuídos\Tarea 5\BSDSocket_Cliente\BS
 C:\Users\eriq\Desktop\2020-2\Sistemas Distribuídos\Tarea 5\BSDSocket_Cliente\BSDSocket_Cliente\bin\Debug\BSDSocket_Cliente.pdb
 C:\Users\eriq\Desktop\2020-2\Sistemas Distribuídos\Tarea 5\BSDSocket_Cliente\BSDSocket_Cliente\obj\Debug\BSDSocket_Cliente.exe
 C:\Users\eriq\Desktop\2020-2\Sistemas Distribuídos\Tarea 5\BSDSocket_Cliente\BSDSocket_Cliente\obj\Debug\BSDSocket_Cliente.pdb
+C:\Users\eriq\Desktop\2020-2\Sistemas Distribuídos\Tarea 5\BSDSocket_Cliente\BSDSocket_Cliente\obj\Debug\BSDSocket_Cliente.csprojAssemblyReference.cache

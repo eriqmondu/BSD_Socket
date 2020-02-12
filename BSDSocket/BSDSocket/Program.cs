@@ -56,7 +56,7 @@ namespace BSDSocket
                     bytes = new byte[1024];
                     int bytesRec = escuchar.Receive(bytes);
                     data += Encoding.ASCII.GetString(bytes, 0, bytesRec);
-                    if (data.IndexOf("<EOF>") > -1)
+                    if (data.IndexOf(" ") > -1)
                     {
                         break;
                     }
